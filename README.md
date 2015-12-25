@@ -26,12 +26,14 @@ bsdiff这个工具具体介绍大家可以在网上找找
 
 我这个项目。就是把bsdiff的 patch 合并工具 拆分出来。放在安卓程序里使用。
 
-我这里是用ndk在eclipse下编译的。项目里有编译好的so文件。大家不想配置ndk可以直接使用。
+我这里是用ndk在eclipse下编译的。项目里有编译好的so文件。大家可以直接使用。
 
 项目里也有个activity 简单的写了一下怎么使用这个 patch 合并工具 
 
 大家也可以看看我的csdn博客。我会在博客里。讲一下这个项目的ndk配置方法。我的博客地址
-http://blog.csdn.net/brok1n
+http://blog.csdn.net/brok1n/article/details/50406774
+
+顺便我也把我写的demo放上来。大家稍作参考。
 
 我的邮箱: 452700765@qq.com
 
