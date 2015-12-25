@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skywds.android.updateexample.MainActivity"
+    android:background="@drawable/aaadddddddddaaa"
+    android:gravity="center"
+     >
+ 
+    <Button 
+        android:id="@+id/bspatch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="增量更新"/>
+    
+ 	<Button 
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="新菜单"/>
+ 	
+ 	<Button 
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_below="@id/bspatch_btn"
+ 	    android:text="关于我们"/>
+ 	
+ 	<TextView 
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:text="V1.1"/>
+ 	
+     
+</LinearLayout>
