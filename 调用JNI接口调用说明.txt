@@ -1,0 +1,29 @@
+外部调用接口类文件
+
+com.skywds.android.bsdiffpatch.JniApi
+
+调用函数
+/**
+ * 2015-09-07
+ * @author brok1n
+ * @param oldPath 旧版apk文件绝对路径
+ * @param newPath 生成新版apk文件存放的绝对路径
+ * @param patchPath 更新补丁包文件存放绝对路径
+ *
+ * @return 1 or other
+ * 	0  生成新版本apk文件成功
+ *     非0  生成新版本apk文件失败
+ * 
+ * */
+public static native int bspatch( String oldPath, String newPath, String patchPath );
+
+
+导入jar包。
+导入so库
+可以只导入一个 armeabi 这个文件夹
+
+
+具体使用可以参考demo工程
+
+
+
